@@ -120,6 +120,17 @@ public class Steps {
         return (comparison.isComparison());
     }
 
+    public void recall(){
+        Comparison comparison = new Comparison(driver);
+        comparison.openPage("http://1k.by");
+        comparison.Comparison();
+    }
+    public boolean isrecall()
+    {
+        Comparison comparison = new Comparison(driver);
+        return (comparison.isComparison());
+    }
+
 }
 
 

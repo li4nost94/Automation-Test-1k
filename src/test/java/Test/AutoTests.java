@@ -88,4 +88,12 @@ public class AutoTests {
         System.out.println("feedback 1k.by");
     }
 
+    //Îòçûâ
+    @Test(description = "feedback 1k.by")
+    public void recall(){
+        steps.SearchProduct();
+        Assert.assertTrue(steps.isSearchProduct());
+        System.out.println("feedback 1k.by");
+    }
+
 }
